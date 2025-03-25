@@ -29,7 +29,7 @@ public class SalariedEmployee extends Employee{
 
     @Override
     public String toString() {
-        return String.format("Salaried Employee:%s\n$s: Rs. %,.2f",super.toString(),
+        return String.format("Salaried Employee:%s\n%s: Rs. %,.2f",super.toString(),
                 "weekly salary",getWeeklySalary());
 
     }
